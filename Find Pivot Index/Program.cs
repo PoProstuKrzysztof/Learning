@@ -1,15 +1,6 @@
 ﻿int[] nums = { 1, 7, 3, 6, 5, 6 };
 
-string SendMessage(string message)
-{
-    return message;
-}
-
 Console.WriteLine( Solution.PivotIndex( nums ) );
-string message = "typie";
-MessageDelegate ms = new MessageDelegate( SendMessage );
-
-internal delegate string MessageDelegate(string messsage);
 
 public static class Solution
 {

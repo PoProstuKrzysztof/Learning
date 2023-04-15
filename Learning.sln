@@ -3,21 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubleSort", "BubleSort\BubleSort.csproj", "{99A14B95-D5A4-44C5-A2F0-21680C841128}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubleSort", "BubleSort\BubleSort.csproj", "{99A14B95-D5A4-44C5-A2F0-21680C841128}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting", "Sorting", "{EFF8CC29-82BA-4EA1-AC92-D9C5D0EC8B1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort.csproj", "{E74F43DD-F4CA-4035-97EF-7B4B559DFB9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeSort", "MergeSort\MergeSort.csproj", "{E74F43DD-F4CA-4035-97EF-7B4B559DFB9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "InsertSort\QuickSort.csproj", "{CA50DFAC-A8F5-493B-9F4A-70D0A45281E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "InsertSort\QuickSort.csproj", "{CA50DFAC-A8F5-493B-9F4A-70D0A45281E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode", "LeetCode", "{3D100728-A210-47B7-95B3-EE03B78A2CBF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 1", "Day 1", "{662CA8F9-75DD-4F15-93A5-7A5EBD55CF55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Running Sum of 1D array", "Running Sum of 1D array\Running Sum of 1D array.csproj", "{88FBEAF5-9087-4A67-A180-C843040DB7EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Running Sum of 1D array", "Running Sum of 1D array\Running Sum of 1D array.csproj", "{88FBEAF5-9087-4A67-A180-C843040DB7EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find Pivot Index", "Find Pivot Index\Find Pivot Index.csproj", "{050D476F-C081-450B-842F-CCFA7E3800DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find Pivot Index", "Find Pivot Index\Find Pivot Index.csproj", "{050D476F-C081-450B-842F-CCFA7E3800DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{9E3A5EED-0127-4735-B38C-61BE03ECA16F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 2", "Day 2", "{E07187B6-73B2-4788-95C8-182BB0EF819B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isomorphic Strings", "Isomorphic Strings\Isomorphic Strings.csproj", "{7EB36844-A575-4262-BC91-14720774623D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,14 @@ Global
 		{050D476F-C081-450B-842F-CCFA7E3800DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{050D476F-C081-450B-842F-CCFA7E3800DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{050D476F-C081-450B-842F-CCFA7E3800DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3A5EED-0127-4735-B38C-61BE03ECA16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3A5EED-0127-4735-B38C-61BE03ECA16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3A5EED-0127-4735-B38C-61BE03ECA16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3A5EED-0127-4735-B38C-61BE03ECA16F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB36844-A575-4262-BC91-14720774623D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB36844-A575-4262-BC91-14720774623D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB36844-A575-4262-BC91-14720774623D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB36844-A575-4262-BC91-14720774623D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +70,8 @@ Global
 		{662CA8F9-75DD-4F15-93A5-7A5EBD55CF55} = {3D100728-A210-47B7-95B3-EE03B78A2CBF}
 		{88FBEAF5-9087-4A67-A180-C843040DB7EF} = {662CA8F9-75DD-4F15-93A5-7A5EBD55CF55}
 		{050D476F-C081-450B-842F-CCFA7E3800DC} = {662CA8F9-75DD-4F15-93A5-7A5EBD55CF55}
+		{E07187B6-73B2-4788-95C8-182BB0EF819B} = {3D100728-A210-47B7-95B3-EE03B78A2CBF}
+		{7EB36844-A575-4262-BC91-14720774623D} = {E07187B6-73B2-4788-95C8-182BB0EF819B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83D64980-3E32-416F-96AB-6D26A41A3911}
