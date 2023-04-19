@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Dele
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 2", "Day 2", "{E07187B6-73B2-4788-95C8-182BB0EF819B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isomorphic Strings", "Isomorphic Strings\Isomorphic Strings.csproj", "{7EB36844-A575-4262-BC91-14720774623D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Isomorphic Strings", "Isomorphic Strings\Isomorphic Strings.csproj", "{7EB36844-A575-4262-BC91-14720774623D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsSubsequence", "IsSubsequence\IsSubsequence.csproj", "{CEBC8212-754A-4522-B432-91C699C15C32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{7EB36844-A575-4262-BC91-14720774623D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EB36844-A575-4262-BC91-14720774623D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EB36844-A575-4262-BC91-14720774623D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBC8212-754A-4522-B432-91C699C15C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBC8212-754A-4522-B432-91C699C15C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBC8212-754A-4522-B432-91C699C15C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBC8212-754A-4522-B432-91C699C15C32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{050D476F-C081-450B-842F-CCFA7E3800DC} = {662CA8F9-75DD-4F15-93A5-7A5EBD55CF55}
 		{E07187B6-73B2-4788-95C8-182BB0EF819B} = {3D100728-A210-47B7-95B3-EE03B78A2CBF}
 		{7EB36844-A575-4262-BC91-14720774623D} = {E07187B6-73B2-4788-95C8-182BB0EF819B}
+		{CEBC8212-754A-4522-B432-91C699C15C32} = {E07187B6-73B2-4788-95C8-182BB0EF819B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83D64980-3E32-416F-96AB-6D26A41A3911}
