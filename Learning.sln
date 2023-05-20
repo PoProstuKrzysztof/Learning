@@ -69,7 +69,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Sum", "Two Sum\Two Sum.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roman To integer", "Roman To integer\Roman To integer.csproj", "{AD442140-3385-4E71-8EFD-165117D40173}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Common Prefix", "Longest Common Prefix\Longest Common Prefix.csproj", "{C71FD38F-C91E-46F6-9620-46B6789CD4B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest Common Prefix", "Longest Common Prefix\Longest Common Prefix.csproj", "{C71FD38F-C91E-46F6-9620-46B6789CD4B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Parentheses", "Valid Parentheses\Valid Parentheses.csproj", "{FA1DA3A8-0BA1-4321-92E5-BE59A881D4F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +163,10 @@ Global
 		{C71FD38F-C91E-46F6-9620-46B6789CD4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C71FD38F-C91E-46F6-9620-46B6789CD4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C71FD38F-C91E-46F6-9620-46B6789CD4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1DA3A8-0BA1-4321-92E5-BE59A881D4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1DA3A8-0BA1-4321-92E5-BE59A881D4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1DA3A8-0BA1-4321-92E5-BE59A881D4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1DA3A8-0BA1-4321-92E5-BE59A881D4F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -194,6 +200,7 @@ Global
 		{FA9E5621-58CB-463F-B585-0A9D8F18921B} = {E04CD3D3-9101-4E04-AD29-D892F0A8F12F}
 		{AD442140-3385-4E71-8EFD-165117D40173} = {E04CD3D3-9101-4E04-AD29-D892F0A8F12F}
 		{C71FD38F-C91E-46F6-9620-46B6789CD4B0} = {E04CD3D3-9101-4E04-AD29-D892F0A8F12F}
+		{FA1DA3A8-0BA1-4321-92E5-BE59A881D4F6} = {E04CD3D3-9101-4E04-AD29-D892F0A8F12F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83D64980-3E32-416F-96AB-6D26A41A3911}
