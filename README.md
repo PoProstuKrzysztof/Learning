@@ -17,10 +17,10 @@ because I think that by mastering how to solve smaller problems, I may gradually
 1. Recurisve 
 2. Dynamic programming
 3. Sorting
-- Bubble Sort
-- Insertion Sort
-- Merge sort
-- Quick Sort
+  - Bubble Sort
+  - Insertion Sort
+  - Merge sort
+  - Quick Sort
 4. Searching
-- Binary search
-- Linear
+  - Binary search
+  - Linear
