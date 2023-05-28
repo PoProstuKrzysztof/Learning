@@ -71,11 +71,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roman To integer", "Roman T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest Common Prefix", "Longest Common Prefix\Longest Common Prefix.csproj", "{C71FD38F-C91E-46F6-9620-46B6789CD4B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Parentheses", "Valid Parentheses\Valid Parentheses.csproj", "{FA1DA3A8-0BA1-4321-92E5-BE59A881D4F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid Parentheses", "Valid Parentheses\Valid Parentheses.csproj", "{FA1DA3A8-0BA1-4321-92E5-BE59A881D4F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{832CE6EF-34CB-48BD-BA14-80700A6DACDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{832CE6EF-34CB-48BD-BA14-80700A6DACDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find the Index of the First Occurrence in a String", "Find the Index of the First Occurrence in a String\Find the Index of the First Occurrence in a String.csproj", "{B9AA2E33-E2D9-45DF-9860-C9952D963EA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find the Index of the First Occurrence in a String", "Find the Index of the First Occurrence in a String\Find the Index of the First Occurrence in a String.csproj", "{B9AA2E33-E2D9-45DF-9860-C9952D963EA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator1\Decorator.csproj", "{BC4AF664-E872-4E76-B89C-E04586FE376F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{E355242E-489A-491B-84A8-1718A83AAE02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,6 +183,14 @@ Global
 		{B9AA2E33-E2D9-45DF-9860-C9952D963EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9AA2E33-E2D9-45DF-9860-C9952D963EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9AA2E33-E2D9-45DF-9860-C9952D963EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4AF664-E872-4E76-B89C-E04586FE376F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4AF664-E872-4E76-B89C-E04586FE376F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4AF664-E872-4E76-B89C-E04586FE376F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4AF664-E872-4E76-B89C-E04586FE376F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E355242E-489A-491B-84A8-1718A83AAE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E355242E-489A-491B-84A8-1718A83AAE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E355242E-489A-491B-84A8-1718A83AAE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E355242E-489A-491B-84A8-1718A83AAE02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -215,6 +227,8 @@ Global
 		{FA1DA3A8-0BA1-4321-92E5-BE59A881D4F6} = {E04CD3D3-9101-4E04-AD29-D892F0A8F12F}
 		{832CE6EF-34CB-48BD-BA14-80700A6DACDE} = {E04CD3D3-9101-4E04-AD29-D892F0A8F12F}
 		{B9AA2E33-E2D9-45DF-9860-C9952D963EA4} = {E04CD3D3-9101-4E04-AD29-D892F0A8F12F}
+		{BC4AF664-E872-4E76-B89C-E04586FE376F} = {9FB15A67-FB50-4A98-B18B-4C73F30916E5}
+		{E355242E-489A-491B-84A8-1718A83AAE02} = {9FB15A67-FB50-4A98-B18B-4C73F30916E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83D64980-3E32-416F-96AB-6D26A41A3911}
