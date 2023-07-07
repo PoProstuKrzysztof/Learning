@@ -1,8 +1,9 @@
 ﻿using System.Text;
 
 //Console.WriteLine( "Should be -1: " + Solution.StrStr( "aaa", "aaaa" ) );
-Console.WriteLine( "Should be -1: " + Solution.StrStr( "leetcode", "leeto" ) );
-Console.WriteLine( "Should be 0: " + Solution.StrStr( "a", "a" ) );
+Console.WriteLine("Should be -1: " + Solution.StrStr("leetcode", "leeto"));
+Console.WriteLine("Should be 0: " + Solution.StrStr("a", "a"));
+Console.WriteLine("Should be -4: " + Solution.StrStr("mississippi", "issip"));
 
 public static class Solution
 {
