@@ -5,6 +5,7 @@ Learning algorithms and solving problems on leetcode.
 + Bridge
 + Composite
 + Decorator
++ Fascade
 + and still going..!
 
 ### LeetCode ©
