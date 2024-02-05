@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Numerics;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
@@ -20,13 +21,15 @@ public static class Solution
             stringBuilder.Append(item);
         }
 
-        var stringBuilderToInt = long.Parse(stringBuilder.ToString());
+        var stringBuilderToInt = UInt64.Parse(stringBuilder.ToString());
         stringBuilderToInt++;
 
         foreach (var digit in stringBuilderToInt.ToString())
         {
             digitsArray.Add(int.Parse(digit.ToString()));
         }
+
+        GC.Collect();
 
         return digitsArray.ToArray();
     }
