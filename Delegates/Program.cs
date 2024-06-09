@@ -74,3 +74,8 @@ static int Add200(int s) => s + 200;
 public delegate T MyDelegate<T>(T x);
 
 public delegate TResult Func<in T, out TResult>(T arg);
+
+public class A
+{
+    public Action MyProperty { get; set; }
+}

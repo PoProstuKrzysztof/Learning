@@ -1,6 +1,9 @@
-﻿using System.Net.Http.Headers;
+﻿var handler = new SocketsHttpHandler
+{
+    PooledConnectionLifetime = TimeSpan.FromMinutes(15)
+};
+var client = new HttpClient(handler);
 
-var client = new HttpClient();
 var request = new HttpRequestMessage
 {
     Method = HttpMethod.Get,
